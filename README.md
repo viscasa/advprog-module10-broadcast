@@ -54,3 +54,14 @@ Berikut hasilnya:
 <div align="center">
     <img src="assets/images/foto4.jpg" alt="foto"/>
 </div>
+
+__Bonus: Rust Websocket server for YewChat!__
+<div align="center">
+    <img src="assets/images/foto7.jpg" alt="foto"/>
+</div>
+
+<div align="center">
+    <img src="assets/images/foto6.jpg" alt="foto"/>
+</div>
+
+Saya berhasil menghubungkan aplikasi YewChat ke server WebSocket yang dibangun sepenuhnya menggunakan Rust dengan menggantikan server JavaScript dari tutorial sebelumnya. Proses ini melibatkan modifikasi pada server Rust agar mampu menerima, memproses, dan membroadcast pesan dalam format JSON yang sesuai dengan struktur `WebSocketMessage` dari YewChat. Dengan menggunakan serialisasi dan deserialisasi `serde`, saya memastikan komunikasi antara frontend dan backend berlangsung mulus. Jika dibandingkan dengan metode sebelumnya yang menggunakan JavaScript sebagai server, pendekatan berbasis Rust ini lebih konsisten, efisien, dan memberikan kontrol penuh atas performa, debugging, serta keamanan. Selain itu, menggunakan Rust end-to-end memperkuat kohesi teknologi dalam proyek ini dan mengurangi ketergantungan lintas bahasa.
